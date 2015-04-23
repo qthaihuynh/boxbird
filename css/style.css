@@ -85,6 +85,11 @@ footer .item-list .row{
 
 footer .item-list .note{
   font-size: 12px;
+  margin-bottom: 10px;
+}
+
+footer .item-list .address{
+  margin-bottom: 10px;
 }
 
 footer .item-list a{
@@ -405,7 +410,7 @@ header .header-content .header-content-inner a.btn {
 
   .navbar-default .navbar-header .navbar-brand {
     color: rgba(255,255,255,.7);
-    padding: 15px 13px;
+    padding: 15px 0;
   }
 
   .navbar-default .navbar-header .navbar-brand:hover,
