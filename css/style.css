@@ -114,8 +114,8 @@ footer .footer-bottom {
   background-color: #0190c6;
 }
 
-footer .footer-bottom span {
-  margin-right: 25px;
+footer .footer-bottom .copy-right, footer .footer-bottom .tc {
+  margin-right: 45px;
 }
 
 section {
@@ -387,17 +387,6 @@ header .header-content .header-content-inner a.btn {
 
   .navbar-default a.btn-sign-in {
     width: 100px;
-  }
-}
-
-@media(max-width: 434px) {
-  footer .copy-right {
-    width: 56%;
-    padding-right: 0;
-  }
-  footer .tc {
-    width: 44%;
-    padding-right: 0;
   }
 }
 
