@@ -349,7 +349,7 @@ header .header-content .header-content-inner a.btn {
   color: rgba(255,255,255,.7);
 }
 
-@media(max-width: 981px) {
+@media(max-width: 989px) {
   .navbar-header {
       float: none;
   }
@@ -387,6 +387,17 @@ header .header-content .header-content-inner a.btn {
 
   .navbar-default a.btn-sign-in {
     width: 100px;
+  }
+}
+
+@media(max-width: 434px) {
+  footer .copy-right {
+    width: 56%;
+    padding-right: 0;
+  }
+  footer .tc {
+    width: 44%;
+    padding-right: 0;
   }
 }
 
