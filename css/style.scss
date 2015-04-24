@@ -46,10 +46,17 @@ h2 {
 
 p {
   margin-bottom: 20px;
-  font-size: 21px;
+  font-size: 22px;
   line-height: 1.5;
   color: #666666;
   font-family: 'Open Sans', sans-serif;
+  &.text-muted {
+    font-size: 18px;
+    margin-top: 22pt;
+  }
+  &.text-faded {
+    font-weight: 300;
+  }
 }
 
 .btn-primary {
@@ -230,6 +237,7 @@ header {
     margin-top: 10px;
     margin-bottom: 5px;
     font-size: 18px;
+    font-weight: 600;
   }
   .price {
     font-size: 40px;

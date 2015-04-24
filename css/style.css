@@ -37,10 +37,15 @@ h2 {
 
 p {
   margin-bottom: 20px;
-  font-size: 21px;
+  font-size: 22px;
   line-height: 1.5;
   color: #666666;
   font-family: 'Open Sans', sans-serif; }
+  p.text-muted {
+    font-size: 18px;
+    margin-top: 22pt; }
+  p.text-faded {
+    font-weight: 300; }
 
 .btn-primary {
   border-color: #f05f40;
@@ -184,7 +189,8 @@ header {
 #pricing .item-name {
   margin-top: 10px;
   margin-bottom: 5px;
-  font-size: 18px; }
+  font-size: 18px;
+  font-weight: 600; }
 #pricing .price {
   font-size: 40px;
   color: #00aeef; }
@@ -368,4 +374,4 @@ footer {
       margin-right: 45px;
       margin-top: 8px; }
 
-/*# sourceMappingURL=style1.css.map */
+/*# sourceMappingURL=style.css.map */
