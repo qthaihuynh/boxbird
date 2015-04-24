@@ -176,9 +176,11 @@ header {
   .header-content {
     position: relative;
     width: 100%;
-    padding: 100px 15px;
+    /*padding: 100px 15px;*/
+    padding: 100px 20% 50px 20%;
     text-align: center;
   }
+
   .header-content-inner {
     h1 {
       margin-top: 0;
@@ -191,12 +193,12 @@ header {
     }
     p {
       /*font-size: 16px;*/
-      font-size: 18px;
+      font-size: 20px;
       font-weight: 300;
     }
     a.btn {
       font-size: 18px;
-      padding: 15px 25px;
+      padding: 15px 35px;
     }
     .video {
       margin-top: 40px;
@@ -209,12 +211,12 @@ header {
         margin-top: 40px;
         background-color: #ececec;
         color: #999999;
-        padding: 13px 40px 13px 15px;
+        padding: 13px 48px 13px 18px;
         display: inline-block;
       }
       .play-icon {
         margin-right: 25px;
-        margin-top: 3px;
+        margin-top: 5px;
       }
       .button-text {
         margin-top: 1px;
@@ -249,7 +251,7 @@ header {
   a.btn {
     margin-top: 40px;
     /*padding: 15px 40px;*/
-    padding: 15px 25px;
+    padding: 15px 35px;
     font-size: 18px;
     margin-bottom: 40px;
   }
@@ -307,7 +309,7 @@ header {
 }
 
 section {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
 aside {
@@ -376,6 +378,20 @@ aside {
 
   .section-heading {
     font-size: 40px;
+  }
+  #pricing a.btn {
+    padding: 15px 25px;
+  }
+  header .header-content {
+    padding: 100px 10% 50px 10%;
+  }
+  header .header-content-inner {
+    .video a.btn {
+      padding: 13px 20px 13px 18px;
+    }
+    a.btn {
+      padding: 15px 13px;
+    }
   }
 }
 
