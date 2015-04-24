@@ -359,6 +359,12 @@ aside {
   }
 }
 
+@media(max-width: 991px) {
+  .border-right {
+    border-right: none !important;
+  }
+}
+
 @media(max-width:767px) {
   section {
     padding: 30px 0 !important;
@@ -371,7 +377,6 @@ aside {
   .section-heading {
     font-size: 40px;
   }
-
 }
 
 @media(min-width:768px) {
